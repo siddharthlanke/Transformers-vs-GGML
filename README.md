@@ -1,16 +1,16 @@
 # Transformers-vs-GGML
-A comparison of text generation using Hugging Face Transformers and GGML-quantized models.
+This repo compares text generation using Hugging Face Transformers and GGML-quantized models, demonstrating both approaches on a free Google Colab T4 GPU.
 
-This repository demonstrates two approaches to text generation:  
+---
+
+This repo demonstrates two approaches to text generation:  
 - **Hugging Face Transformers** (`codellama/CodeLlama-7b-hf`) for GPU-optimized inference.  
 - **GGML models** (`TheBloke/Llama-2-13B-chat-GGML`) via `ctransformers` for efficient CPU/GPU hybrid workflows.  
 
 
 ---
 
-# **Notebook Content**
-
-### **Cell 1 vs. Cell 2: Key Differences**
+### Key Differences
 
 | Feature                | Hugging Face Transformers (Cell 1)       | GGML + ctransformers (Cell 2)           |
 |------------------------|------------------------------------------|------------------------------------------|
